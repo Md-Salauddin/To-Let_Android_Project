@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">To-Let</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="user_number">Mobile no</string>
+    <string name="user_password">Password</string>
+    <string name="user_name">Name</string>
 </resources>

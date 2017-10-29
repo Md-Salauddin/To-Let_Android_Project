@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.FrameLayout;
 
 import com.example.mohammadsk.to_let.Fragment.LoginFragment;
 import com.example.mohammadsk.to_let.Fragment.SignUpFragment;
@@ -35,13 +34,13 @@ public class MainActivity extends AppCompatActivity {
                 loadFragment(new LoginFragment());
             }
         });
+
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 loadFragment(new SignUpFragment());
             }
         });
-
 
     }
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/userProfile"
+        android:enabled="true"
+        android:icon="@mipmap/account"
+        android:title="@string/user_profile"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/userUploadImage"
+        android:enabled="true"
+        android:icon="@mipmap/photo"
+        android:title="@string/upload_mage"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/addPost"
+        android:enabled="true"
+        android:icon="@mipmap/add"
+        android:title="@string/add_post"
+        app:showAsAction="ifRoom" />
+</menu>

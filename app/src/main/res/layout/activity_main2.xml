@@ -12,6 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/gradient_bottom"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_navigation_main">
+    </android.support.design.widget.BottomNavigationView>
 
 </RelativeLayout>

@@ -1,6 +1,10 @@
 package com.example.mohammadsk.to_let;
 
 
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +12,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.mohammadsk.to_let.Fragment.AddPostFragment;
 import com.nightonke.boommenu.BoomButtons.ButtonPlaceEnum;
 import com.nightonke.boommenu.BoomButtons.OnBMClickListener;
 import com.nightonke.boommenu.BoomButtons.TextOutsideCircleButton;
@@ -77,20 +82,24 @@ public class Main2Activity extends AppCompatActivity {
 
                 switch (item.getItemId()){
                     case R.id.userProfile:
-                        Toast.makeText(Main2Activity.this,"My Profile",Toast.LENGTH_SHORT).show();
+                        Intent intentProfile = new Intent(Main2Activity.this, Main3Activity.class);
+                        intentProfile.putExtra("button","1");
+                        startActivity(intentProfile);
                         break;
                     case R.id.userUploadImage:
-                        Toast.makeText(Main2Activity.this,"Upload Image",Toast.LENGTH_SHORT).show();
+                        Intent intentUploadImage = new Intent(Main2Activity.this, Main3Activity.class);
+                        intentUploadImage.putExtra("button","2");
+                        startActivity(intentUploadImage);
                         break;
                     case R.id.addPost:
-                        Toast.makeText(Main2Activity.this,"Add post",Toast.LENGTH_SHORT).show();
+                        Intent intentAddPost = new Intent(Main2Activity.this, Main3Activity.class);
+                        intentAddPost.putExtra("button","3");
+                        startActivity(intentAddPost);
                         break;
-
                 }
-
                 return true;
             }
         });
-
     }
+
 }

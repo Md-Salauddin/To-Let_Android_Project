@@ -9,4 +9,68 @@
     <string name="user_profile">Profile</string>
     <string name="upload_mage">Upload image</string>
     <string name="add_post">Post</string>
+    <string name="description">Description about facilities</string>
+    <string name="address">Address</string>
+    <string name="amount">Amount</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+
+    <!-- Array -->
+    <string-array name="spinner_zone_array">
+        <item>Select district . . .</item>
+        <item>Dhaka</item>
+        <item>Faridpur</item>
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Kishoreganj</item>
+        <item>Madaripur</item>
+        <item>Manikganj</item>
+        <item>Munshiganj</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Rajbari</item>
+        <item>Shariatpur</item>
+        <item>Tangail</item>
+    </string-array>
+
+    <string-array name="spinner_district_array">
+        <item>Select thana . . .</item>
+        <item>Adabor</item>
+        <item>Badda</item>
+        <item>Bandar</item>
+        <item>Biman Bandar</item>
+        <item>Cantonment</item>
+        <item>Chawkbazar</item>
+        <item>DakshinKhan</item>
+        <item>Darus Salam</item>
+        <item>Demra</item>
+        <item>Dhanmondi</item>
+        <item>Gazipur Sadar</item>
+        <item>Gendaria</item>
+        <item>Gulsan</item>
+        <item>Hazaribagh</item>
+        <item>Jatrabari</item>
+        <item>Kadamtali</item>
+        <item>Kafrul</item>
+        <item>Kalabagan</item>
+        <item>Kamrangirchar</item>
+        <item>Keraniganj</item>
+        <item>Khilgaon</item>
+        <item>Khilkhet </item>
+    </string-array>
+
+    <string-array name="spinner_room_type_array">
+        <item>Select space type . . .</item>
+        <item>Flat</item>
+        <item>Office space</item>
+        <item>Sublet</item>
+        <item>One seat</item>
+        <item>Two seat</item>
+        <item>Three seat</item>
+        <item>One room</item>
+        <item>Two room</item>
+        <item>Three room</item>
+        <item>Others</item>
+    </string-array>
+
 </resources>

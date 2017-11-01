@@ -5,6 +5,7 @@ import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 
 import com.example.mohammadsk.to_let.Fragment.AddPostFragment;
 import com.example.mohammadsk.to_let.Fragment.UploadImageFragment;

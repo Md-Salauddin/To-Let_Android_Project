@@ -13,6 +13,7 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/edit_text_shape"
         android:hint="@string/user_name"
+        android:maxLength="25"
         android:padding="9dp"/>
 
     <EditText
@@ -22,6 +23,8 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/edit_text_shape"
         android:hint="@string/user_number"
+        android:inputType="number"
+        android:maxLength="14"
         android:padding="9dp"/>
 
     <EditText
@@ -31,6 +34,8 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/edit_text_shape"
         android:hint="@string/user_password"
+        android:inputType="textPassword"
+        android:maxLength="8"
         android:padding="9dp"/>
 
     <Button

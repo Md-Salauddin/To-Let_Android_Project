@@ -62,13 +62,15 @@ public class Main2Activity extends AppCompatActivity {
                         public void onBoomButtonClick(int index) {
                             switch (index){
                                 case 0:
-                                    Toast.makeText(Main2Activity.this,"Search",Toast.LENGTH_SHORT).show();
+                                    Intent intentProfile = new Intent(Main2Activity.this, Main3Activity.class);
+                                    intentProfile.putExtra("button","4");
+                                    startActivity(intentProfile);
                                     break;
                                 case 1:
                                     Toast.makeText(Main2Activity.this,"Message",Toast.LENGTH_SHORT).show();
                                     break;
                                 case 2:
-                                    Toast.makeText(Main2Activity.this,"Log out",Toast.LENGTH_SHORT).show();
+                                    finish();
                                     break;
                             }
                         }

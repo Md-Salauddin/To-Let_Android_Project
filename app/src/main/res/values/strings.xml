@@ -14,10 +14,12 @@
     <string name="amount">Amount</string>
     <string name="latitude">Latitude</string>
     <string name="longitude">Longitude</string>
+    <string name="search_by_amount">Search by amount</string>
+    <string name="search">Search</string>
 
     <!-- Array -->
     <string-array name="spinner_zone_array">
-        <item>Select district . . .</item>
+        <item>Select district</item>
         <item>Dhaka</item>
         <item>Faridpur</item>
         <item>Gazipur</item>
@@ -34,7 +36,7 @@
     </string-array>
 
     <string-array name="spinner_district_array">
-        <item>Select thana . . .</item>
+        <item>Select thana</item>
         <item>Adabor</item>
         <item>Badda</item>
         <item>Bandar</item>
@@ -60,7 +62,7 @@
     </string-array>
 
     <string-array name="spinner_room_type_array">
-        <item>Select space type . . .</item>
+        <item>Select space type</item>
         <item>Flat</item>
         <item>Office space</item>
         <item>Sublet</item>

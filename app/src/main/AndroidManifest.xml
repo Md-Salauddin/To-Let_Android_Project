@@ -19,7 +19,8 @@
         <activity
             android:name=".Main2Activity"
             android:label=""></activity>
-        <activity android:name=".Main3Activity"></activity>
+        <activity android:name=".Main3Activity"
+            android:label=""></activity>
     </application>
 
 </manifest>
